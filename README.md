@@ -1,5 +1,5 @@
 # Create Custom Steps with SAS® Studio
-xxxx
+Custom steps allow you to create a user interface to dynamically customize SAS® code that can then be shared, reused, and executed in SAS® Studio. In this lab, you will create an example Custom Step using SAS® Studio.
 
 ## Important Information
 The hands-on instructions in these pages are specific to the SAS Innovate workshop and should not be considered a replacement for the official SAS Documentation. Some parts of these instructions will only work correctly in the Lab environments provided by SAS Education.
