@@ -1,5 +1,6 @@
 # Create a Custom Step
 * [Exercise Description](#exercise-description)
+* [Log in to SAS Viya](#log-in-to-sas-viya)
 * [Create a Custom Step](#create-a-custom-step-1)
   * [*Assignment*: Complete Page 1 UI](#assignment-complete-page-1-ui)
   * [Set Port Details](#set-port-details)
@@ -18,11 +19,18 @@ In this exercise you create a custom step that calculates the geo-distance betwe
 <br>
 <br>
 
-## Create a Custom Step
-1. Log on to SAS Viya with the following credentials:
-   - User: **Alex**
-   - Password: **lnxsas**
+## Log in to SAS Viya
 
+Open a new window in the *Google Chrome* browser and select the **SAS Landing** bookmark.
+
+* ID: **student**
+* Password: **Metadata0**
+
+Select **No** when prompted about accepting *Admin* privileges.
+
+<br>
+
+## Create a Custom Step
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
 1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
 1. Select ![New](images/New.png) &#10132; **Custom step quick start** to create a new custom step.
