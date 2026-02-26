@@ -119,7 +119,7 @@ Add an **Output Table** *Data* control to the main canvas.  Enter the properties
 
 > &#9998; The *new column* is not displayed in the Preview since its visibility is set to *false*.
 
-**Close** the preview when done.
+**Close** the launched custom step when done.
 
 <br>
 <br>
@@ -185,7 +185,7 @@ Confirm that the dependent **decimalPlaces** selection is only displayed if the 
 
   ![Custom Step Option Checked](images/CSChecked.png)
 
-**Close** the preview when done.
+**Close** the launched custom step when done.
 
 <br>
 <br>
@@ -242,16 +242,18 @@ run;
 
   > &#8252; The **ID** names for the controls are used in the code for the custom step, so ensure you entered them correctly; otherwise, you will either need to edit the code or the control ID in the properties on the *Design* tab.
 
+![](images/CSProgramTab.png)
+
 3. **Save** and close the custom step.
 
 <br>
 <br>
 
 ## Open and Test the Custom Step in Stand-Alone Mode
-1. Select ![](images/ExplorerIcon.png) to view the **Explorer** tab in *SAS Studio*.
+1. Select xxx to view the **SAS Content** tab in *SAS Studio*.
 
-1. Navigate to **Folder Shortcuts &#10132; Shortcut to My Folder &#10132; Workshop**.
-1. Select **Geo Dist with Rounding.step** and right-click to view its menu.
+1. Navigate to **SAS Content &#10132; Public**.
+1. Select **GeoDistance with Rounding.step** and right-click to view its menu.
 1. Select **Open in a tab** to view the custom step in stand-alone mode.
 
 ### Assignment: Test the Custom Step
