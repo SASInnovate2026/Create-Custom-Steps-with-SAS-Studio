@@ -126,10 +126,10 @@ Add an **Output Table** *DATA* control to the main canvas.  Enter the properties
 
 ### Set Port Details
 1. Select ![Port Details](images/PortDetails.png) to enter the port details for the custom step.
+1. Select ![](images/PencilIcon.png) for the **outTable** *Output Tables* port to edit its details.
 
     ![](images/PortDetailsTab.png)
 
-1. Select ![](images/PencilIcon.png) for the **outTable** *Output Tables* port to edit its details.
 1. Select **All columns &#10132; Input table (inTable)** to add all the columns from that input table to the output.
 
     ![Add Input Columns](images/AddInputColumnstoOutput.png)
@@ -138,7 +138,7 @@ Add an **Output Table** *DATA* control to the main canvas.  Enter the properties
 
     ![Add Output Columns](images/OutputTableColumns.png)
 
-1. Select **OK** to save the changes to output table metadata.
+1. Click **OK** to save the changes to output table metadata.
 1. **Save** the changes to the custom step.
 
 <br>
