@@ -40,7 +40,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 
      ![Custom Step Page 1](images/CSPage1.png)
 
-1. Drag the **Input Table** *DATA* control onto the canvas.
+1. Drag the **Input Table** *Data* control onto the canvas.
 1. Enter the **Properties** for the *Input Table*, enter the following:
    - ID: **inTable**
    - Label: **Input table**
@@ -61,7 +61,7 @@ Select **No** when prompted about accepting *Admin* privileges.
 <br>
 
 ### *Assignment*: Complete Page 1 UI
-Add a **Radio Button Group** *COMMON* control to the canvas.  Enter the properties as depicted below.
+Add a **Radio Button Group** *Common* control to the canvas.  Enter the properties as depicted below.
 
    > &#9755; Click ![Radio Button Add Item](images/CSAddItem.png) to add an item to the radio button list.
 
@@ -69,7 +69,7 @@ Add a **Radio Button Group** *COMMON* control to the canvas.  Enter the properti
 
 <br>
 
-Add a **Section** *COMMON* control to the canvas.  Enter the properties as depicted below.
+Add a **Section** *Common* control to the canvas.  Enter the properties as depicted below.
 
 ![Custom Step Section Control](images/CSSection.png)
 
@@ -79,7 +79,7 @@ Add a **Section** *COMMON* control to the canvas.  Enter the properties as depic
 
 <br>
 
-Add a **Column Selector** *DATA* control to the canvas in the *Lat/Long Columns* section group.  Enter the properties as depicted below.
+Add a **Column Selector** *Data* control to the canvas in the *Lat/Long Columns* section group.  Enter the properties as depicted below.
 
    > &#9755; Right-click the control once added to the canvas and select **Move to section &#10132; Lat/Long Columns** to place it in the section.
 
@@ -99,7 +99,7 @@ Add a **Column Selector** *DATA* control to the canvas in the *Lat/Long Columns*
 
 <br>
 
-Add a **New Column** *DATA* control to the main canvas.  Enter the properties as depicted below.
+Add a **New Column** *Data* control to the main canvas.  Enter the properties as depicted below.
 
 ![New Column Control](images/NewColumnControl.png)
 
@@ -107,7 +107,7 @@ Add a **New Column** *DATA* control to the main canvas.  Enter the properties as
 
 <br>
 
-Add an **Output Table** *DATA* control to the main canvas.  Enter the properties as depicted below.
+Add an **Output Table** *Data* control to the main canvas.  Enter the properties as depicted below.
 
 ![Custom Step Output Table](images/CSOutTable.png)
 
@@ -151,26 +151,35 @@ Create a second page for the custom step by selecting ![Add Page button](images/
 
 <br>
 
-Add a **Check Box** *COMMON* control to the canvas on *Page2*.  Enter the properties as depicted below.
+**Save** the custom step.
+
+<br>
+
+Add a **Check Box** *Common* control to the canvas on *Page2*.  Enter the properties as depicted below.
 
 ![Custom Step Round Check Box](images/CSRound.png)
 
 <br>
 
-Add a **Text or Numeric Field** *COMMON* control to the canvas.  Enter the properties as depicted below.
+**Save** the custom step.
 
-  > &#9998; **"$round"** in the *Dependencies visiblity* section indicates that this control is dependent on the **round** *Check Box* control and will only be displayed if it is checked.
+<br>
+
+Add a **Text or Numeric Field** *Common* control to the canvas.  Enter the properties as depicted below.
+
+  > &#9998; **"$round"** in the *Dependencies Visiblity* section indicates that this control is dependent on the **round** *Check Box* control and will only be displayed if it is checked.
 
 ![Custom Step Num Decimal Places](images/CSDecimalPlaces.png)
 
 <br>
 
-**Save** the custom step.  Select **Launch** to preview Page 2 - *Options* of the custom step.  Confirm that the dependent **decimalPlaces** selection is only displayed if the **round** check box is checked.
+**Save** the custom step.  Select **Launch** to preview Page 2 - *Options* of the custom step.
+
+Confirm that the dependent **decimalPlaces** selection is only displayed if the **round** check box is checked.
 
 **Round Option Unchecked**
 
   ![Custom Step Option Unchecked](images/CSUnchecked.png)
-
 
 **Round Option Checked**
 
@@ -182,7 +191,7 @@ Add a **Text or Numeric Field** *COMMON* control to the canvas.  Enter the prope
 <br>
 
 ### *Assignment*: Build Page 3 UI
-Add an **About** page (tab).  On the *About* tab, use the **Text** control in the *COMMON* section to add the following text:
+Add an **About** page (tab).  On the *About* tab, use the **Text** control in the *Common* section to add the following text:
 **This custom step calculates the distance between two locations.**
 
 **Save** the custom step.
