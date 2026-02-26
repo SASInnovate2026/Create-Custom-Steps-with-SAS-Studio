@@ -242,7 +242,7 @@ run;
 
   > &#8252; The **ID** names for the controls are used in the code for the custom step, so ensure you entered them correctly; otherwise, you will either need to edit the code or the control ID in the properties on the *Design* tab.
 
-![](images/CSProgramTab.png)
+  ![](images/CSProgramTab.png)
 
 3. **Save** and close the custom step.
 
@@ -250,30 +250,51 @@ run;
 <br>
 
 ## Open and Test the Custom Step in Stand-Alone Mode
-1. Select xxx to view the **SAS Content** tab in *SAS Studio*.
-
+1. Select ![SAS Content](images/SASContentIcon.png) to view the **SAS Content** tab in *SAS Studio*.
 1. Navigate to **SAS Content &#10132; Public**.
 1. Select **GeoDistance with Rounding.step** and right-click to view its menu.
-1. Select **Open in a tab** to view the custom step in stand-alone mode.
+1. Select **Open** to view the custom step in stand-alone mode.
+
+  ![](images/CSOpenStandAlone.png)
+
+<br>
+<br>
 
 ### Assignment: Test the Custom Step
-Perform various tests using **MAPS.AFRICA** as the input table.  Select columns **X** and **Y** as *Location 1* and columns **LAT** and **LONG** as *Location 2*.  Select **WORK.TEST** as the output table.  View the resulting table in the **WORK** library.  Play around with different options on the **Options** tab of the custom step.
+Perform various tests using **MAPS.AFRICA** as the input table.  Use ![Input Table](images/SelectInputTable.png) to select the input table.
+
+Select columns **X** and **Y** for *Location 1* and columns **LAT** and **LONG** for *Location 2*.
+
+Select **WORK.TEST** as the output table.  Use ![Output Table](images/SelectOutputTable.png) to select the output table.
+
+**Run** the custom step.
 
 ![](images/CSTESTResults.png)
+
+View the resulting **TEST** table in the **WORK** library.  Select ![Libraries](images/LibrariesIcon.png) to view the library connections.
+
+![](images/WorkTestResults.png)
+
+Play around with different options on the **Options** tab of the custom step.
+
+**Close** the *TEST* table and the custom step when done.
 
 <br>
 <br>
 
 ## Use the Custom Step in a SAS Studio Flow
-1. Upload...
+1. In *SAS Studio*, select **New &#10132; Flow** from the menu to create a flow file.
+
+  ![](images/CreateNewFlow.png)
+
+1. x
 
 
 <br>
 
 ## Exercise Completed
 
-You have completed the exercise on **Create Custom Steps with SAS Studio**.
+You have completed the exercise for **Create Custom Steps with SAS Studio**.
 
-**THANK YOU FOR ATTENDING THIS SESSION!**
-
-**PLEASE COMPLETE THE EVALUATION IN THE SAS INNOVATE APP!**
+**THANK YOU FOR ATTENDING THIS SESSION!** <br>
+**PLEASE COMPLETE THE EVALUATION!**
