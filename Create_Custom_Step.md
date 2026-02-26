@@ -167,7 +167,7 @@ Add a **Check Box** *Common* control to the canvas on *Page2*.  Enter the proper
 
 Add a **Text or Numeric Field** *Common* control to the canvas.  Enter the properties as depicted below.
 
-  > &#9998; **"$round"** in the *Dependencies Visiblity* section indicates that this control is dependent on the **round** *Check Box* control and will only be displayed if it is checked.
+  > &#9998; **"$round"** in the *Dependencies Visibility* section indicates that this control is dependent on the **round** *Check Box* control and will only be displayed if it is checked.
 
 ![Custom Step Num Decimal Places](images/CSDecimalPlaces.png)
 
