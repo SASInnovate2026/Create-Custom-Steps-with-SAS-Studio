@@ -9,7 +9,7 @@
   * [Add Code to the Custom Step](#add-code-to-the-custom-step)
 * [Open and Test the Custom Step in Stand-Alone Mode](#open-and-test-the-custom-step-in-stand-alone-mode)
   * [Assignment: Test the Custom Step](#assignment-test-the-custom-step)
-* [Use the Custom Step in a SAS Studio Flow](#use-the-custom-step-in-a-sas-studio-flow)
+* [Test the Custom Step in a SAS Studio Flow](#test-the-custom-step-in-a-sas-studio-flow)
 * [Exercise Completed](#exercise-completed)
 
 <br>
@@ -255,7 +255,7 @@ run;
 1. Select **GeoDistance with Rounding.step** and right-click to view its menu.
 1. Select **Open** to view the custom step in stand-alone mode.
 
-  ![](images/CSOpenStandAlone.png)
+    ![](images/CSOpenStandAlone.png)
 
 <br>
 <br>
@@ -282,14 +282,75 @@ Play around with different options on the **Options** tab of the custom step.
 <br>
 <br>
 
-## Use the Custom Step in a SAS Studio Flow
-1. In *SAS Studio*, select **New &#10132; Flow** from the menu to create a flow file.
+## Test the Custom Step in a SAS Studio Flow
+1. In *SAS Studio*, select **New &#10132; Flow** from the menu to create a new flow file.
 
-  ![](images/CreateNewFlow.png)
+    ![](images/CreateNewFlow.png)
 
-1. x
+1. Select ![SAS Server](images/SASServerIcon.png) to view the files on the SAS Server.
+1. Expand the folders **Files &#10132; Home &#10132; workshop &#10132; Custom_Steps**.
+1. Select the file **Location_Data.xlsx** and drag it on to the Flow canvas to add an *Import File* step for that spreadsheet.
+1. Click **Analyze** on the step *Options* tab to analyze and add the column names and contents of the file.
+
+    ![Import FIle](images/ImportLocationData.png)
+
+1. Select ![Steps Pane](images/StepsPane.png) to view the Steps pane.
+1. Select the **Custom Steps** tab to view the available custom steps.
+1. Drag the **GeoDistance with Rounding** custom step to the flow canvas and use the mouse pointer to connect it to the *Import File* step.
+
+    ![Custom Step Added](images/AddCSToFlow.png)
+
+1. Click ![Save](images/Save.png) to save the flow file.
+1. Navigate to **SAS Content &#10132; Public**.
+1. Enter **Calculate GeoDistance** for the *name* and click **Save**.
+
+    ![](images/SaveCSFlow.png)
+
+1. Select the **GeoDistance with Rounding** step in the flow canvas to view its properties in the bottom pane.
+1. On the *Calculate Geo Distance** tab, enter the following:
+     - Calculate distance in: <br>
+        ![Unselected radio button](images/UnselectedRadioButton.png) Kilometers <br>
+        ![Selected radio button](images/SelectedRadioButton.png) Miles
+     - Location 1
+        - **country_latitude**
+        - **country_longitude**
+     - Location 2
+        - **location_latitude**
+        - **location_longitude**
+
+      ![](images/CalcGeoDistTab.png)
+
+1. Select the **Options** tab for the custom step properties and enter the following:
+      - ![Selected checkbox](images/SelectedCheckbox.png) Round calculated distance?
+      - Enter number of decimal places to round to:<br>
+        **2**
+
+      ![](images/CSOptions.png)
+
+1. **Save** the flow file.
+1. Click ![Run](images/RunIcon.png) to execute the flow file.
+1. Select the **output port** for the *GeoDistance with Rounding* step to view the results.
+1. Select the **Preview** tab.
+
+    ![](images/CSPreviewResultsMiles.png)
+
+1. Select the **GeoDistance with Rounding** step in the flow canvas to view its properties in the bottom pane.
+1. On the **Calculate Geo Distance** tab, change the following selection:
+     - Calculate distance in: <br>
+        ![Selected radio button](images/SelectedRadioButton.png) Kilometers <br>
+        ![Unselected radio button](images/UnselectedRadioButton.png) Miles
+
+      ![](images/ChangetoKM.png)
+
+1. **Save** the flow file.
+1. Click ![Run](images/RunIcon.png) to execute the flow file.
+1. Select the **output port** for the *GeoDistance with Rounding* step to view the results.
+1. Select the **Preview** tab.
+
+    ![](images/CSPreviewResultsKM.png)
 
 
+<br>
 <br>
 
 ## Exercise Completed
