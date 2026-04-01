@@ -195,7 +195,11 @@ Confirm that the dependent **decimalPlaces** selection is only displayed if the 
 <br>
 
 ### *Assignment*: Build Page 3 UI
-Add an **About** page (tab).  On the *About* tab, use the **Text** control in the *Common* section to add the following text:
+Add an **About** page (tab) as depicted below.
+
+![](images/AddAboutTab.png)
+
+On the *About* tab, use the **Text** control in the *Common* section to add the following text:
 **This custom step calculates the distance between two locations.**
 
 **Save** the custom step.
