@@ -32,6 +32,10 @@ Select **No** when prompted about accepting *Admin* privileges.
 
 ## Create a Custom Step
 1. Select ![Viya Menu Selector](images/HamburgerMenu.png) **&#10132; Develop Code and Flows** to open *SAS Studio*.
+1. Click **x** to close the Start Page, if it is open. Also, close any other open tabs, if needed.
+
+    ![SAS Studio Steps page](images/SAS_Studio_Steps.png)
+
 1. Select ![Steps Pane](images/Steps.png) to view the **Steps** pane.
 1. Select ![New](images/New.png) &#10132; **Custom step quick start** to create a new custom step.
 1. On the **Properties** for the *Page* on the *Design* tab, enter the following:
