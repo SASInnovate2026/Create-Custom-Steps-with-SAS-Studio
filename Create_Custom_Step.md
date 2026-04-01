@@ -202,9 +202,9 @@ Add an **About** page (tab) as depicted below.
 On the *About* tab, use the **Text** control in the *Common* section to add the following text:
 **This custom step calculates the distance between two locations.**
 
-**Save** the custom step.
-
 ![About Tab](images/CSAboutTab.png)
+
+**Save** the custom step.
 
 <br>
 <br>
