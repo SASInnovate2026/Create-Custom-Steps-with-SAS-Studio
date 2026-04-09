@@ -276,17 +276,17 @@ Select columns **X** and **Y** for *Location 1* and columns **LAT** and **LONG**
 Select **WORK.TEST** as the output table.  Use ![Output Table](images/SelectOutputTable.png) to select the output table.
  > &#9998; You will need to type the table name of **TEST** since it does not already exist in the **WORK** library.
 
-**Run** the custom step.
+**Run** the custom step and review the *Output Data* tab.
 
-![](images/CSTESTResults.png)
+![Output Data tab](images/CSTESTResults.png)
 
 View the resulting **TEST** table in the **WORK** library.  Select ![Libraries](images/LibrariesIcon.png) to view the library connections.
 
-![](images/WorkTestResults.png)
-
-Play around with different options on the **Options** tab of the custom step.
+![WORK.TEST Table](images/WorkTestResults.png)
 
 **Close** the *TEST* table and the custom step when done.
+
+If time permits, play around with different options on the **Options** tab of the custom step.
 
 <br>
 <br>
