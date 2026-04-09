@@ -269,7 +269,7 @@ run;
 <br>
 
 ### Assignment: Test the Custom Step
-Perform various tests using **MAPS.AFRICA** as the input table.  Use ![Input Table](images/SelectInputTable.png) to select the input table.
+Perform a test using **MAPS.AFRICA** as the input table.  Use ![Input Table](images/SelectInputTable.png) to select the input table.
 
 Select columns **X** and **Y** for *Location 1* and columns **LAT** and **LONG** for *Location 2*.
 
@@ -285,8 +285,6 @@ View the resulting **TEST** table in the **WORK** library.  Select ![Libraries](
 ![WORK.TEST Table](images/WorkTestResults.png)
 
 **Close** the *TEST* table and the custom step when done.
-
-If time permits, play around with different options on the **Options** tab of the custom step.
 
 <br>
 <br>
@@ -339,7 +337,7 @@ If time permits, play around with different options on the **Options** tab of th
 1. **Save** the flow file.
 1. Click ![Run](images/RunIcon.png) to execute the flow file.
 1. Select the **output port** for the *GeoDistance with Rounding* step to view the results.
-1. Select the **Preview** tab.
+1. Select the **Preview Data** tab.
 
     ![](images/CSPreviewResultsMiles.png)
 
@@ -354,7 +352,7 @@ If time permits, play around with different options on the **Options** tab of th
 1. **Save** the flow file.
 1. Click ![Run](images/RunIcon.png) to execute the flow file.
 1. Select the **output port** for the *GeoDistance with Rounding* step to view the results.
-1. Select the **Preview** tab.
+1. Select the **Preview Data** tab.
 
     ![](images/CSPreviewResultsKM.png)
 
