@@ -103,7 +103,7 @@ Add a **Column Selector** *Data* control to the canvas in the *Lat/Long Columns*
 
 <br>
 
-Add a **New Column** *Data* control to the main canvas.  Enter the properties as depicted below.
+Add a **New Column** *Data* control to the canvas.  Enter the properties as depicted below.
 
 ![New Column Control](images/NewColumnControl.png)
 
@@ -260,7 +260,7 @@ run;
 ## Open and Test the Custom Step in Stand-Alone Mode
 1. Select ![SAS Content](images/SASContentIcon.png) to view the **SAS Content** tab in *SAS Studio*.
 1. Navigate to **SAS Content &#10132; Public**.
-1. Select **GeoDistance with Rounding.step** and right-click to view its menu.
+1. Select **GeoDistance with Rounding.step** and *right-click* to view its menu.
 1. Select **Open** to view the custom step in stand-alone mode.
 
     ![](images/CSOpenStandAlone.png)
@@ -274,6 +274,7 @@ Perform various tests using **MAPS.AFRICA** as the input table.  Use ![Input Tab
 Select columns **X** and **Y** for *Location 1* and columns **LAT** and **LONG** for *Location 2*.
 
 Select **WORK.TEST** as the output table.  Use ![Output Table](images/SelectOutputTable.png) to select the output table.
+ > &#9998; You will need to type the table name of **TEST** since it does not already exist in the **WORK** library.
 
 **Run** the custom step.
 
