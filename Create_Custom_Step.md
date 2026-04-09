@@ -356,6 +356,7 @@ View the resulting **TEST** table in the **WORK** library.  Select ![Libraries](
 
     ![](images/CSPreviewResultsKM.png)
 
+1. Click **x** close the flow file.
 
 <br>
 <br>
