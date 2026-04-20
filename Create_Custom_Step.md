@@ -91,9 +91,9 @@ Add a **Column Selector** *Data* control to the canvas in the *Lat/Long Columns*
 
 <br>
 
-**Duplicate** the *Location1 Column Selector* control and paste it below in the *Lat/Long Columns* section group.  Edit the properties as depicted below.
+**Duplicate** the *Location 1 Column Selector* control and paste it below in the *Lat/Long Columns* section group.  Edit the properties as depicted below.
 
-   > &#9755; Right-click the *Location 1* control once added to the canvas and select **Duplicate**.
+   > &#9755; Right-click the *Location 1* control and select **Duplicate**.
 
 ![Custom Step Column Selector 2](images/CSLoc2.png)
 
@@ -107,7 +107,7 @@ Add a **New Column** *Data* control to the canvas.  Enter the properties as depi
 
 ![New Column Control](images/NewColumnControl.png)
 
-  > &#9998; Setting visibility to *false* means that the user will not be able to view this control.  The column name will be controlled by the code, but is needed for the output options in the port details you will set later in this exercise.
+  > &#9998; Setting visibility to *false* means that the user will not be able to view this control.  The column name will be controlled by the code, but this *new column* control is needed for the output options in the port details you will set later in this exercise.
 
 <br>
 
@@ -123,7 +123,7 @@ Add an **Output Table** *Data* control to the main canvas.  Enter the properties
 
 > &#9998; The *new column* is not displayed in the Preview since its visibility is set to *false*.
 
-**Close** the launched custom step when done.
+Click **x** to close the launched preview of the custom step when done.
 
 <br>
 <br>
@@ -314,7 +314,7 @@ View the resulting **TEST** table in the **WORK** library.  Select ![Libraries](
     ![](images/SaveCSFlow.png)
 
 1. Select the **GeoDistance with Rounding** step in the flow canvas to view its properties in the bottom pane.
-1. On the *Calculate Geo Distance** tab, enter the following:
+1. On the *Calculate Geo Distance* tab, enter the following:
      - Calculate distance in: <br>
         ![Unselected radio button](images/UnselectedRadioButton.png) Kilometers <br>
         ![Selected radio button](images/SelectedRadioButton.png) Miles
